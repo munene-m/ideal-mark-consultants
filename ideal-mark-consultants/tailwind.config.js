@@ -6,7 +6,14 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx.tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      inset:{
+        '-4': '-1rem' 
+      },
+      width:{
+        '64': '280px'
+      },
+    },
   },
   plugins: [],
 }
