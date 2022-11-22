@@ -12,7 +12,7 @@ module.exports = {
       },
       width:{
         '64': '280px'
-      },
+      }
     },
   },
   plugins: [],

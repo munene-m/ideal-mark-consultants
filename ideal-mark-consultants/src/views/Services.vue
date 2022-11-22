@@ -1,9 +1,9 @@
 <template>
-    <h1 class="font-bold text-3xl underline fixed z-20 bg-white bg-opacity-70 rounded text-blue-900 italic text-center md:text-start py-7 md:pl-12 md:pt-9 top-0">
+    <h1 class="font-bold text-3xl underline  md:z-20 md:fixed bg-white bg-opacity-70 rounded text-blue-900 italic text-center md:text-start py-7 md:pl-12 md:pt-9 top-32">
         Services we offer</h1>
     <img class="md:w-1/2 md:h-screen md:flex md:justify-end md:flex-row md:top-0 md:right-0 hidden md:absolute md:items-end"
         src="../assets/images/Rectangle 6.png" alt="">
-    <div class="flex flex-row gap-5 p-3  overflow-x-scroll snap-start snap-mandatory snap-x  h-screen md:w-max mx-auto md:top-4 justify-center px-3 md:grid-cols-4 md:items-center z-10 absolute md:px-3 justify-items-center">
+<div class="flex flex-row gap-5 p-3  overflow-x-scroll snap-start snap-mandatory snap-x  h-screen md:w-fit mx-auto md:top-20 justify-center px-3 md:grid-cols-4 md:items-center z-10 absolute md:px-3 justify-items-center">
         <div class="flex justify-center snap-start shrink-0">
             <div class="rounded-lg shadow-lg bg-white max-w-xs">
                 <a href=""><img class="rounded-t-lg" src="../assets/images/WhatsApp Image 2022-09-30 at 10.11 1.png" alt=""></a>

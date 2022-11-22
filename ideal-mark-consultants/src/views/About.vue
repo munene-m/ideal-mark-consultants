@@ -1,5 +1,5 @@
 <template>
-<div class="grid grid-cols-1 md:grid-cols-2 md:justify-center md:items-center md:mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 md:justify-center md:items-center md:mx-auto md:mt-16">
     <div class="pt-12 px-12 md:pt-20 md:pl-24 top-0 relative z-10 ">
         <img class="w-32 md:w-64 absolute top-6 left-0" src="../assets/images/Group 82.png" alt="">
         <img class="w-72 h-72 md:w-96 md:h-96" src="../assets/images/Rectangle 3.png" alt="">
@@ -17,7 +17,7 @@
         </p>
     </div>
 </div>
-<div class="md:px-24 px-8 w-auto pt-24">
+<div class="md:px-24 px-8 w-auto pt-24 relative">
     <h1 class="underline italic font-bold text-blue-900 pb-6 text-4xl">Why Us?</h1>
     <ul class="list-disc pl-7 mx-auto md:pl-12">
         <li class="pb-2">We offer a non competitive ground for our clients, we don't accept more than one client from the
@@ -67,7 +67,8 @@
         </div>
     </div>
     <div class="flex flex-col md:gap-20 md:justify-center md:absolute md:items-center md:flex-row">
-        <img class="md:px-14 px-8 w-80 md:w-auto pt-12" src="../assets/images/WhatsApp_Image_2022-09-29_at_12.13 1.png" alt="">
+        <img class="md:px-14 px-8 w-80 md:w-96 pt-12" src="../assets/images/WhatsApp_Image_2022-09-29_at_12.13 1.png" alt="">
+
         <div class="md:pl-14 px-6 md:w-1/2">
             <h1 class="font-bold text-2xl pb-3 text-blue-900 underline italic">A little bit about our CEO</h1>
             <p>Margaret holds a bachelor's degree in Marketing from the Management University of Africa, and a Diploma in Public Relations having won the Best Student Award countrywide from the Kenya Institute of Management, Kenya.
@@ -78,7 +79,38 @@
             <p>idealmarkconsultants@gmail.com.</p>
         </div>
     </div>
-    <img class="md:float-right items-center justify-center flex relative md:pr-10 md:top-72" src="../assets/images/ceo 1.png" alt="">
+    <div>
+        <img class="md:float-right items-center justify-center flex relative md:right-40 h-96 md:top-72" src="../assets/images/ceo 1.png" alt="">
+        <div class="relative md:float-left top-96 left-32 mt-36">
+        <p class="font-bold">Ms Marget Kula</p>
+        <p class="text-green-500 pr-1 font-bold">Director and founder</p><p class="font-bold">of IdealMark Consultancy</p>
+    </div>
+    </div>
+ 
+
+    <div class="flex flex-row items-center justify-between mx-auto absolute">
+        <div class="relative top-96 md:mt-96 md:ml-20 flex flex-col w-1/2">
+            <h1 class="font-bold text-blue-900 underline italic text-2xl pb-8">Appreciation and gifts</h1>
+            <p class="font-bold text-green-500 text-xl">Sometimes we receive gifts and thanks from our clients</p>
+            <div class="md:flex-row md:justify-center flex pt-8 md:items-center md:gap-5 w-60 ml-32 px-2">
+                <img src="../assets/images/Rectangle 19.png" alt="">
+                <img src="../assets/images/Rectangle 20.png" alt="">
+            </div>
+        </div>
+        <div class="relative float-right top-96 md:left-80 md:mt-96">
+            <h1 class="text-2xl font-bold pb-7 text-blue-900 underline italic">Testimonials</h1>
+            <p class="font-bold text-green-500 text-xl">What our clients say about us,</p>
+            <div class="w-96">
+                <img class="absolute top-14 right-20 w-96" src="../assets/images/Rectangle 21.png" alt="">
+                <img class="relative w-60 top-8" src="../assets/images/Group 120.png" alt="">
+            </div>
+            <div class="flex flex-col">
+                <img class="w-14 pt-20" src="../assets/images/WhatsApp_Image_2022-09-29_at_12.13 1.png" alt="">
+                <p class="font-bold">Ms Marget Kula</p>
+                <p class="italic font-bold text-gray-500">Founder</p>
+            </div>
+        </div>
+    </div>
 </template>
 <script setup>
 import AffordableIcon from '../assets/icons/AffordableIcon.vue'
